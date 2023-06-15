@@ -1,0 +1,398 @@
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Comfortaa", san-serif;
+  }
+
+  /* Table Styling */
+  .table, th, td {
+    border: 1px solid #60C0C0;
+    border-collapse: collapse;
+    padding: 15px;
+  }
+
+  /* Accordion */
+  .prAccordion {
+    --bs-accordion-color: var(--bs-body-color);
+    --bs-accordion-bg: var(--bs-body-bg);
+    --bs-accordion-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out,border-radius 0.15s ease;
+    --bs-accordion-border-color: var(--bs-border-color);
+    --bs-accordion-border-width: var(--bs-border-width);
+    --bs-accordion-border-radius: var(--bs-border-radius);
+    --bs-accordion-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-accordion-btn-padding-x: 1.25rem;
+    --bs-accordion-btn-padding-y: 1rem;
+    --bs-accordion-btn-color: var(--bs-body-color);
+    --bs-accordion-btn-bg: var(--bs-accordion-bg);
+    --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    --bs-accordion-btn-icon-width: 1.25rem;
+    --bs-accordion-btn-icon-transform: rotate(-180deg);
+    --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23052c65'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    --bs-accordion-btn-focus-border-color: #ffffff;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #ffffff;
+    --bs-accordion-body-padding-x: 1.25rem;
+    --bs-accordion-body-padding-y: 1rem;
+    --bs-accordion-active-color: #444444;
+    --bs-accordion-active-bg: #EBC0B4;
+  }
+
+  /* Sections (Padding & Margins) */
+  .padContainer {       /* Padding for the whole container */
+    padding: 50px 90px 50px 90px;
+  }
+
+  .row {      /* Makes the rows flex (responsive) */
+    display: flex;
+  }
+
+  .padTextSection {       /* Padding for all 4 sides of content */
+    display: flex;
+    padding: 50px 70px 50px 70px;
+  }
+
+  .padTextSection2 {      /* Padding for just L/R sides of content */
+    display: flex;
+    padding: 0px 90px 0px 90px;
+  }
+
+  .padTextSection3 {      /* Padding for the horizontal gap of the profile grid */
+    display: flex;
+    padding: 50px 70px 20px 70px;
+  }
+
+  .padTextSection4 {      /* Padding for just L/R sides of content */
+    display: flex;
+    padding: 50px 90px 0px 90px;
+  }
+
+  .padProfiles {
+    display: flex;
+    margin: 0px 45px 0px 45px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+  }
+
+  .padGridItem {
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 15px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  .justCenter {
+    display: grid;
+    justify-content: center;
+  }
+
+  .padRight {
+    padding-right: 100px;
+  }
+
+  .padRight2 {
+    padding-right: 50px
+  }
+
+  .padLeft {
+    padding-left: 75px;
+  }
+
+  .padTop {
+    padding-top: 30px;
+  }
+
+  .padTop2 {
+    padding-top: 0px;
+  }
+
+  .padBottom {
+    padding-bottom: 20px;
+  }
+
+  .hero {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .imgRadius {
+    border-radius: 20px;
+  }
+
+  .padCalculator {
+    padding: 50px 50px 50px 50px;
+    justify-content: center;
+  }
+
+  .imgPadding {
+    padding: 15px 5px 15px 5px;
+  }
+
+  .blueContainer {
+    background-color: #60C0C0; /* Paws Rescue Blue */;
+  }
+
+  .lightGreyBG {
+    background-color: #F7F7F7;
+  }
+  .pinkBG2 {
+    background-color: #EBC0B4;
+  }
+
+  .pinkProfileBg {
+    background-color: #EBC0B4;
+  }
+
+  .pinkProfileBg:hover {
+    background-color: #60C0C0;
+  }
+
+      /* > Responsive */
+  @media only screen and (max-width: 800px) {
+    .padContainer  {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .pinkProfileBg {
+        margin-bottom: 30px;
+    }
+    .padTextSection3 .padTextSection4 .padProfiles {
+        padding: 30px 20px 30px 20px;
+    }
+    .padTop2 {
+      padding-top: 30px;
+    }
+  }
+
+  @media screen and (max-height: 450px) {
+    .padContainer  {
+        padding-top: 50px 50px 50px 50px;
+      }
+      .padTextSection3 .padTextSection4 .padProfiles {
+        display: flex;
+        padding: 30px 20px 30px 20px;
+    }
+    .padTop2 {
+      padding-top: 30px;
+    }
+  }
+
+  .imgSize {
+  width: 200px;
+  height: 220px;
+  border-radius: 20px;
+  object-fit: cover;
+  }
+
+  /* Text */
+  h1 p { 
+    color: #444444;
+ }
+
+  .centerAlign {
+    text-align:center
+  }
+
+  .justAlign {
+    padding-top: 10px;
+    justify-content: center;
+  }
+
+  .leftAlign {
+    text-align: left;
+  }
+
+  .boldText {
+    font-weight: 800;
+  }
+  .whiteText {
+    color: #ffffff;
+  }
+
+  .whiteBG {
+    background-color: #ffffff;
+  }
+
+  .darkText {
+    color: #444444
+  }
+
+  .purpleText {
+    color: #725398;
+  }
+
+  .blueText {
+    color: #60C0C0; /* Paws Rescue Blue */
+  }
+
+  /* Buttons */
+  .button1 {
+    padding: 9px 25px;
+    background-color: #EBC0B4; /* Paws Rescue Pink */
+    color: #ffffff; /* Paws Text Colour */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+    text-decoration: none;
+  }
+  
+  .button1:hover {
+    background-color: #60C0C0; /* Paws Rescue Blue */
+    color: #ffffff
+  }
+
+  .button2 {
+    padding: 9px 25px;
+    background-color: #EBC0B4; /* Paws Rescue Pink */
+    color: #ffffff; /* Paws Text Colour */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+    text-decoration: none;
+  }
+  
+  .button2:hover {
+    background-color: #ffffff; 
+  }
+
+   /* Links */
+   a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+   a:hover { /* link hover colour */
+    color: #444444;
+    text-decoration: none;
+  }
+
+  .button3 {
+    padding: 9px 25px;
+    background-color: #EBC0B4; /* Paws Rescue Pink */
+    color: #ffffff; /* Paws Text Colour */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+    text-decoration: none;
+  }
+  
+  .button3:hover {
+    background-color: #60C0C0; /* Paws Rescue Blue */
+    color: #ffffff
+  }
+
+ /* HEADER AREA */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #F0F0F0;
+  }
+  
+  .logo {
+    cursor: pointer;
+  }
+  
+  .nav__links a,
+  .button1, .button2,
+  .overlay__content a {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 500;
+    color: #24252a; /* Paws Text Colour */
+    text-decoration: none;
+  }
+
+  .nav__links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav__links li {
+    padding: 0px 20px;
+  }
+  
+  .nav__links li a {
+    transition: color 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: #60C0C0; /* Paws Rescue Blue */
+  }
+  
+  /* Mobile Nav */
+  
+  .menu {
+    display: none;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #EBC0B4; /* Paws Rescue Pink */
+    overflow-x: hidden;
+    transition: width 0.5s ease 0s;
+  }
+  
+  .overlay--active {
+    width: 100%;
+  }
+  
+  .overlay__content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay a {
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: color 0.3s ease 0s;
+  }
+  
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #f7f7f7; 
+  }
+  .overlay .close {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #edf0f1;
+  }
+
+  @media screen and (max-height: 450px) {
+    .overlay a {
+      font-size: 20px;
+    }
+    .overlay .close {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .nav__links,
+    .button1 {
+      display: none;
+    }
+    .menu {
+      display: initial;
+    }
+  }

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paws Rescue</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Heading -->
+<header>
+    <a class="logo" href="index.html"><img src="/Users/milliekillick/Documents/02. Business/3. Coding/CFG/CFGWebDev/S8-Project/Images/PawsRescueLogo.png" alt="logo" width="100"></a>
+    <nav>
+        <ul class="nav__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="adoptADog.html">Adopt a Dog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <a class="button1" href="tel:+44123456789">01234 56789</a>
+    <p class="menu button1">Menu</p>
+</header>
+<div class="overlay">
+    <a class="close">&times;</a>
+    <div class="overlay__content">
+        <a href="index.html">Home</a>
+        <a href="adoptADog.html">Adopt a Dog</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</div>
+<!-- Intro Section -->
+  <div class="container-fluid blueContainer padContainer">
+      <div class="row align-items-center">
+          <div class="col-md-12">
+              <div>
+                  <div class="text-label centerAlign">
+                     <h1 class="h1 whiteText"> Donate </h1>
+                     <p class="whiteText">Your kind donations help us provide life changing care and forever homes for thousands of our furry friends. <br>
+                      We really appreciate your support (and we know the dogs do too!) </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Intro Section -->
+ <!-- Hero Section -->
+ <section class="hero">
+  <div class="container py-5">
+    <div class="row">
+        <div class="col-md-10 mx-auto">
+          <h3 class="blueText"> Personal Details</h3>
+          <br>
+            <form>
+                <div class="form-group row">
+                  <br><br>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="inputFirstname" placeholder="First name">
+                    </div>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="inputLastname" placeholder="Last name">
+                    </div>
+                </div>
+                <div class="form-group row">
+                  <br><br>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="inputAddressLine1" placeholder="Address">
+                    </div>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="inputPostalCode" placeholder="Postcode">
+                    </div>
+                </div>
+                <div class="form-group row">
+                  <br><br>
+                    <div class="col-sm-6">
+                        <input type="tel" class="form-control" id="inputContactNumber" placeholder="Contact Number">
+                    </div>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="inputEmail" placeholder="Email Address">
+                    </div>
+                </div>
+                <hr>
+                <br><br>
+                <h3 class="blueText"> Complete Direct Debit Instruction</h3>
+                <br>
+                <div class="form-group row">
+                  <br><br>
+                    <div class="col-sm-6">
+                      <h6 class="blueText">Donation Amount</h6>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">£5</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">£10</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">£15</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">£25</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">£50</label>
+                      </div>
+                    </div>
+                      <br><br>
+                      <br><br>
+                    <div class="col-sm-6">
+                      <h6 class="blueText">Donation Frequency</h6>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Weekly</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Fortnightly</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">Monthly</label>
+                      </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                  <br><br>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="inputAccountNo" placeholder="Account Number">
+                    </div>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="inputSortCode" placeholder="Sort Code">
+                    </div>
+                </div>
+                <br><br>
+                <button type="button" class="button3 px-4 float-right">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+</section>
+
+</body>
+
+<footer>
+  <!-- Footer Content -->
+<footer class="text-center text-white" style="background-color: #F5F5F5">
+<!-- Grid container -->
+<div class="container">
+  <!-- Section: Links -->
+  <section class="mt-5">
+    <!-- Grid row-->
+    <div class="row text-center d-flex justify-content-center pt-5">
+      <!-- Grid column -->
+      <div class="col-md-2">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="Donate.html" class="blueText">Donate</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="privacy.html" class="blueText">Privacy Policy</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="contact.html" class="blueText">Contact</a>
+        </h6>
+      </div>
+
+      <!-- Grid column -->
+    </div>
+    <!-- Grid row-->
+  </section>
+  <!-- Section: Links -->
+
+  <hr class="my-5 darkText" />
+
+  <!-- Section: Text -->
+  <section class="mb-5">
+    <div class="row d-flex justify-content-center">
+      <div class="col-lg-8">
+        <p class="darkText">
+          123 Baker Street, London, CFG 123
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- Copyright -->
+<div class="text-center p-3" style="background-color: #60c0c0">
+  <p>© 2023 Paws Rescue</p>
+</div>
+</footer>
+</div>
+<!-- End of .container -->
+  <!-- Bootstrap Link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <!-- Javascript Link -->
+  <script src="script.js"></script>
+</footer>
+</body>
+</html>
