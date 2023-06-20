@@ -39,6 +39,11 @@
 }
 
 /* Sections (Padding & Margins) */
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 .padContainer {       /* Padding for the whole container */
   padding: 50px 90px 50px 90px;
@@ -46,10 +51,6 @@
 
 .padContainer2 {       /* Padding for the whole container */
   padding: 50px 0px 50px 90px;
-}
-
-.row {      /* Makes the rows flex (responsive) */
-  display: flex;
 }
 
 .padTextSection {       /* Padding for all 4 sides of content */
@@ -94,9 +95,11 @@
   margin-bottom: 15px;
 }
 
-.row {
-  display: flex;
+.topBottomBorder {
+  border-top: solid;
+  border-bottom: solid;
 }
+
 .justCenter {
   display: grid;
   justify-content: center;
@@ -171,12 +174,27 @@
 }
 
     /* > Responsive */
+@media (max-width: 978px) {
+  .profileDetailsMargin {
+    padding-bottom: 15px;
+    margin-right: 0%;
+  }
+  .li {
+    display: block;
+    float: left;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .padContainer  {
       padding-top: 30px;
       padding-bottom: 30px;
       padding-left: 30px;
       padding-right: 30px;
+  }
+  .profileDetailsMargin {
+    padding-bottom: 15px;
+    margin-right: 0%;
   }
   .pinkProfileBg {
       margin-bottom: 30px;
@@ -187,10 +205,16 @@
   .padTop2 {
     padding-top: 30px;
   }
-  
 }
 
+
 @media screen and (max-height: 450px) {
+  .li {
+    display: block;
+  }
+  .profileDetailsMargin {
+    margin-right: 0%;
+  }
   .padContainer  {
       padding-top: 50px 40px 50px 40px;
     }
@@ -201,7 +225,6 @@
   .padTop2 {
     padding-top: 30px;
   }
-
 }
 
 .imgSize {
