@@ -39,6 +39,7 @@
 }
 
 /* Sections (Padding & Margins) */
+
 .padContainer {       /* Padding for the whole container */
   padding: 50px 90px 50px 90px;
 }
@@ -86,12 +87,10 @@
 
 .padGridItem2 {
   padding: 40px 40px 40px 40px;
-  margin-bottom: 15px;
-  margin-right: 40px;
 }
 
 .padGridItem3 {
-  padding: 50px 50px 60px 50px;
+  padding: 50px 30px 60px 30px;
   margin-bottom: 15px;
 }
 
@@ -166,6 +165,11 @@
   background-color: #60C0C0;
 }
 
+.profileDetailsMargin {
+  padding-bottom: 15px;
+  margin-right: 40px;
+}
+
     /* > Responsive */
 @media only screen and (max-width: 800px) {
   .padContainer  {
@@ -183,11 +187,12 @@
   .padTop2 {
     padding-top: 30px;
   }
+  
 }
 
 @media screen and (max-height: 450px) {
   .padContainer  {
-      padding-top: 50px 50px 50px 50px;
+      padding-top: 50px 40px 50px 40px;
     }
     .padTextSection3 .padTextSection4 .padProfiles {
       display: flex;
@@ -196,6 +201,7 @@
   .padTop2 {
     padding-top: 30px;
   }
+
 }
 
 .imgSize {
@@ -447,7 +453,6 @@ header {
 
 .whiteBG {
   background-color: #FFFFFF;
-  margin-bottom: 15px;
 }
 
 ul {
