@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <!-- Heading -->
@@ -41,7 +42,7 @@
               <div class="text-label centerAlign">
                  <h1 class="h1 whiteText"> Contact Us </h1>
                  <br>
-                 <p class="whiteText"> Have a question? Check out our FAQ page </p>
+                  <p class="whiteText centerAlign"> Have a question? Check out our <b><u><a href="#FAQ Jumplink">FAQ section</a></u></b></p>
                  <p class="whiteText"> Want to get in touch? Here's how you can reach us... </p>
               </div>
           </div>
@@ -49,32 +50,76 @@
   </div>
 </div>
 
-<!-- 3 sections - contact us -->
-<div class="container-fluid lightGreyBG padContainer">
-  <div class="row align-items-center">
-    <!-- Section 1 -->
-      <div class="col-md-12 contactContainers">
-        <div class="pinkBG2 imgRadius padGridItem">
-          <p>Hello</p>
+      <!-- Contact Details Grid -->
+      <div>
+        <div class="container-fluid" style="background-color: #F5F5F5">
+          <div class="row padContainer">
+             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+              <div class="pinkBG2 imgRadius padGridItem text-center">
+                <br><br>
+                <i class="fa-solid fa-phone fa-6x" style="color: #ffffff;"></i>
+                <br><br>
+                 <h3 class="justAlign whiteText">Call Us</h3>
+                 <br>
+                 <h6 class="boldText"><b>01234 567891</b></h6>
+                 <br><br>
+                 <p>Mon-Fri: 9am-5pm</p>
+                 <p>Sat: 10am-3pm</p>
+                 <p>Sun: 10am-12pm</p>
+                 <br>
+                 <a class="button5" href="tel:+44123456789">Call Us</a>
+                 <br><br>
+               </div>
+             </div>
+             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+              <div class="pinkBG2 imgRadius padGridItem text-center">
+                <br><br>
+                <i class="fa-solid fa-envelope fa-6x" style="color: #ffffff;"></i>
+                <br><br>
+                <h3 class="justAlign whiteText">Email Us</h3>
+                 <br>
+                 <h6 class="boldText"><b>info@pawsrescue.org.uk</b></h6>
+                 <br><br>
+                 <p>Our team aim to respond</p>
+                 <p>to all queries within</p>
+                 <p>48 hours</p>
+                 <br>
+                 <a class="button5" href="mailto:info@pawsrescue.org.uk">Email Us</a>
+                 <br><br>
+               </div>
+             </div>
+             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+              <div class="pinkBG2 imgRadius padGridItem text-center">
+                <br><br>
+                <i class="fa-solid fa-map-location-dot fa-6x" style="color: #ffffff;"></i>
+                <br><br>
+                 <h3 class="justAlign whiteText">Visit Us</h3>
+                 <br>
+                 <h6 class="boldText"><b>123 Baker Street, London,</b></h6>
+                 <h6 class="boldText"><b>CFG 342</b></h6>
+                 <br>
+                 <p>Mon-Fri: 9am-5pm</p>
+                 <p>Sat: 10am-3pm</p>
+                 <p>Sun: Closed</p>
+                 <br>
+                 <a class="button5" href="https://goo.gl/maps/BnS2jTWq2q5g4Yv49" target="_blank">Visit Us</a>
+                 <br><br>
+               </div>
+              </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
 
-        </div>
-      </div>
-    <!-- Section 2 -->
-      <div class="col-md-12 contactContainers">
-        <div class="pinkBG2 imgRadius padGridItem">
-          <p>Hello</p>
 
-        </div>
-      </div>
-      <!-- Section 3 -->
-      <div class="col-md-12 contactContainers">
-        <div class="pinkBG2 imgRadius padGridItem">
-          <p>Hello</p>
 
-        </div>
-      </div>
-  </div>
-</div>
+
+
+
+
+
+
 
 <!-- FAQs -->
 <div class="container-fluid padContainer">
@@ -82,7 +127,7 @@
   <div class="row centerAlign">
      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
         <div class="center">
-            <h1> Frequently Asked Questions</h1>
+            <h1 id="FAQ Jumplink"> Frequently Asked Questions</h1>
         </div>
       </div>
    </div>

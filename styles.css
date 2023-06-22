@@ -217,6 +217,9 @@
   .padTop2 {
     padding-top: 30px;
   }
+  contactContainers {
+    width: 100%;
+  }
 }
 
 
@@ -233,6 +236,9 @@
   }
   .padTop2 {
     padding-top: 30px;
+  }
+  contactContainers {
+    width: 100%;
   }
 }
 
@@ -479,6 +485,9 @@ header {
     top: 15px;
     right: 35px;
   }
+  contactContainers {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -488,6 +497,9 @@ header {
   }
   .menu {
     display: initial;
+  }
+  contactContainers {
+    width: 100%;
   }
 }
 
