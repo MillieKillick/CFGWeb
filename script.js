@@ -25,8 +25,6 @@ $('.num-age').keyup(function(e) {
   smallAge = (num * 7) + " years old in dog years!";
 
   $('.total-small-dog').html(smallAge);
-  $('.total-medium-dog').html(mediumAge);
-  $('.total-big-dog').html(bigAge);
 });
 
 

@@ -5,98 +5,6 @@
   font-family: "Comfortaa", san-serif;
 }
 
-@media screen and (max-height: 450px) {
-  .padRight3 {
-    padding-right: 0px;
-  }
-  .overlay a {
-    font-size: 20px;
-  }
-  .overlay .close {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .padRight3 {
-    padding-right: 0px;
-  }
-  .nav__links,
-  .button1 {
-    display: none;
-  }
-  .menu {
-    display: initial;
-  }
-}
-
-  /* > Responsive */
-  @media (max-width: 978px) {
-    .padRight3 {
-      padding-right: 0px;
-    }
-    .profileDetailsMargin {
-      padding-bottom: 15px;
-      margin-right: 0%;
-    }
-    .li {
-      display: block;
-      float: left;
-    }
-  }
-  
-  /* Mobile */
-  @media only screen and (max-width: 800px) {
-    .padRight3 {
-      padding-right: 0px;
-    }
-    .dogList {
-      padding: 20px 20px 80px 20px;
-      justify-content: center;
-    }
-    .padContainer  {
-        padding-top: 30px;
-        padding-bottom: 30px;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    .profileDetailsMargin {
-      padding-bottom: 15px;
-      margin-right: 0%;
-    }
-    .pinkProfileBg {
-        margin-bottom: 30px;
-    }
-    .padTextSection3 .padTextSection4 .padProfiles {
-        padding: 30px 20px 30px 20px;
-    }
-    .padTop2 {
-      padding-top: 30px;
-    }
-  }
-  
-  
-  @media screen and (max-height: 450px) {
-    .padRight3 {
-      padding-right: 0px;
-    }
-    .profileDetailsMargin {
-      margin-right: 0%;
-    }
-    .padContainer  {
-        padding-top: 50px 40px 50px 40px;
-      }
-      .padTextSection3 .padTextSection4 .padProfiles {
-        display: flex;
-        padding: 30px 20px 30px 20px;
-    }
-    .padTop2 {
-      padding-top: 30px;
-    }
-  }
-
 /* Table Styling */
 .table, th, td {
   border: 1px solid #60C0C0;
@@ -600,3 +508,96 @@ h4 {
   width: 32%;
   vertical-align: top;
 }
+
+
+@media screen and (max-height: 450px) {
+  .padRight3 {
+    padding-right: 0px;
+  }
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .close {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .padRight3 {
+    padding-right: 0px;
+  }
+  .nav__links,
+  .button1 {
+    display: none;
+  }
+  .menu {
+    display: initial;
+  }
+}
+
+  /* > Responsive */
+  @media (max-width: 978px) {
+    .padRight3 {
+      padding-right: 0px;
+    }
+    .profileDetailsMargin {
+      padding-bottom: 15px;
+      margin-right: 0%;
+    }
+    .li {
+      display: block;
+      float: left;
+    }
+  }
+  
+  /* Mobile */
+  @media only screen and (max-width: 800px) {
+    .padRight3 {
+      padding-right: 0px;
+    }
+    .dogList {
+      padding: 20px 20px 80px 20px;
+      justify-content: center;
+    }
+    .padContainer  {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .profileDetailsMargin {
+      padding-bottom: 15px;
+      margin-right: 0%;
+    }
+    .pinkProfileBg {
+        margin-bottom: 30px;
+    }
+    .padTextSection3 .padTextSection4 .padProfiles {
+        padding: 30px 20px 30px 20px;
+    }
+    .padTop2 {
+      padding-top: 30px;
+    }
+  }
+  
+  
+  @media screen and (max-height: 450px) {
+    .padRight3 {
+      padding-right: 0px;
+    }
+    .profileDetailsMargin {
+      margin-right: 0%;
+    }
+    .padContainer  {
+        padding-top: 50px 40px 50px 40px;
+      }
+      .padTextSection3 .padTextSection4 .padProfiles {
+        display: flex;
+        padding: 30px 20px 30px 20px;
+    }
+    .padTop2 {
+      padding-top: 30px;
+    }
+  }
