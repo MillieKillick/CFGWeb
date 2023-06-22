@@ -155,6 +155,11 @@
   margin-bottom: 40px;
 }
 
+.blueContainerTwo {
+  background-color: #60C0C0; /* Paws Rescue Blue */;
+  margin-bottom: 0px;
+}
+
 .lightGreyBG {
   background-color: #F7F7F7;
 }
